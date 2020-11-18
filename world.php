@@ -34,9 +34,9 @@ $city = $mycity->fetchAll(PDO::FETCH_ASSOC);
     <thead>
       <tr>
         <th class = "th1">Name</th>
-        <th class = "th1">Continent</th>
-        <th class = "th1">Independence</th>
-        <th class = "th1">Name of State</th>
+        <th class = "th2">Continent</th>
+        <th class = "th3">Independence</th>
+        <th class = "th4">Name of State</th>
       </tr>
     </thead>
     <tbody>
@@ -56,9 +56,9 @@ $city = $mycity->fetchAll(PDO::FETCH_ASSOC);
     <caption><h2>TABLE SHOWING CITIES</h2></caption>
     <thead>
       <tr>
-        <th class = "th1">Name</th>
-        <th class = "th1">District</th>
-        <th class = "th1">Population</th>
+        <th class = "th11">Name</th>
+        <th class = "th12">District</th>
+        <th class = "th13">Population</th>
       </tr>
     </thead>
     <tbody>
